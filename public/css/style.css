@@ -208,7 +208,7 @@ html{
 .sun{
     height: 100vh;
     width: 100%;
-    background-image: url('/images/sun/sun_background.png');
+    background-image: url('/images/sun/Sun_background.png');
     background-size:cover;
     
 }
