@@ -8,6 +8,7 @@ app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "/public")));
 app.use(express.static(path.join(__dirname, "/public/css")));
 app.use(express.static(path.join(__dirname, "/public/images")));
+app.use(express.static(path.join(__dirname, "/public/images/hero")));
 app.use(express.static(path.join(__dirname, "/public/images/sun")));
 
 app.set("views", path.join(__dirname, "/views"));
